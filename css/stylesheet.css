@@ -1,0 +1,236 @@
+/*removes default margin and padding and defaults border-box*/
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}/*
+
+/* body tag with a background image set*/
+body {
+    background-image: url("../assets/background.png");
+    background-color: rgba(38, 38, 38, .95);
+    display: flex;
+    flex-direction: column;
+}
+
+/*wapper to keep elements within its bounds*/
+#wrapper {
+    width: 80%;
+    background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*used in head of document black styling as a fail safe incase of gaps between elements*/
+header {
+    background-color: black;
+}
+
+
+
+/*top navigation styling, inline used to keep elements on one line*/
+#topnav {
+    border: 2px solid white;
+    width: 100%;
+    background: rgba(38, 38, 38, .95);
+    display: inline-flex;
+}
+
+
+
+/*styles images navigation within topnav*/
+#topnav a 
+{
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: white;
+
+	
+
+}
+
+#topnav a img
+{
+	height:50px;
+	width:50px;
+}
+
+/*on hover used to display a different colour on mouse over*/
+#topnav a:hover 
+{
+    background-color: gray;
+}
+
+#contain {
+    background-color: rgba(38, 38, 38, .95);
+}
+
+#picture{
+	display:inline;
+}
+
+.circular--square {
+  display: inline-block;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+
+
+/*styling of div containing mailing list info, margin auto to center*/
+#aboutme {
+    background-color:white;
+    text-align:center;
+    margin:auto;
+}
+#aboutmepara
+{
+	text-align:center;
+    background-color:white;
+	padding-left:10px;
+    margin:auto;
+}
+
+#education {
+    background-color:white;
+    text-align:center;
+    margin:auto;
+}
+#educationpara
+{
+	text-align:center;
+    background-color:white;
+	padding-left:10px;
+    margin:auto;
+}
+
+#experience {
+    background-color:white;
+    text-align:center;
+    margin:auto;
+}
+#experiencepara
+{
+	text-align:center;
+    background-color:white;
+	padding-left:10px;
+    margin:auto;
+}
+
+#design {
+    background-color:white;
+    text-align:center;
+    margin:auto;
+}
+#designpara
+{
+	text-align:center;
+    background-color:white;
+	padding-left:10px;
+    margin:auto;
+}
+
+
+/*styling of socialmedia div*/
+#social {
+    border: 2px solid black;
+    width: 100%;
+    background: rgba(38, 38, 38, .95);
+    display: inline-flex;
+}
+
+/*styling of links within soicalmedia div, inline to keep them on the same line, radius to round them*/
+#social a {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: white;
+}
+
+#social a img
+{
+	height:50px;
+	width:50px;
+}
+
+/*change of colour when user hovers over social links*/
+#social a:hover {
+    background-color: gray;
+}
+
+/*h1 tag with font styling to match look of site*/
+h1 {
+    color: navy;
+    font-size: 240%;
+    font-family: "Lato",Tahoma,sans-serif;
+    margin: 3px;
+}
+
+/*h2 tag with font styling to match look of site*/
+h2 {
+    font-family: "Lato",Tahoma,sans-serif;
+    color: black;
+    display: inline;
+    font-size:120%;
+}
+/*p tag styled inline so multiple can be used and still be displayed on the same line*/
+p {
+    color: black;
+	margin:0px;
+    font-size:120%;
+}
+
+
+/*centers ul tags*/
+ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+#images{
+  margin-left: auto;
+  margin-right: auto;
+  display:inline;
+}
+#images img{
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  width:700px;
+
+}
+
+#contactme{
+    background-color:white;
+    text-align:center;
+    margin:auto;
+}
+
+
+
+
+/*div that holds demo video*/
+#demoholder {
+ 
+    background: white;
+    text-align:center;
+}
