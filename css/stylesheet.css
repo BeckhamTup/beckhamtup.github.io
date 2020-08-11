@@ -191,7 +191,8 @@ h2 {
 /*p tag styled inline so multiple can be used and still be displayed on the same line*/
 p {
     color: black;
-	margin:0px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    margin:0px;
     font-size:120%;
 }
 
