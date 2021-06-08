@@ -9,7 +9,7 @@
 body {
     background-image: url("../assets/background.png");
     background-color: rgba(38, 38, 38, .95);
-    display: flex;
+	display: table-footer-group;
     flex-direction: column;
 }
 
@@ -48,9 +48,6 @@ header {
     box-sizing: border-box;
     margin: 10px;
     background-color: white;
-
-	
-
 }
 
 #topnav a img
